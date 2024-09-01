@@ -11,4 +11,4 @@ function Card({ src, alt, }) {
     );
 };
 
-export default Card;
+export default Card
