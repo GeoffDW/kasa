@@ -8,7 +8,7 @@ function Nav() {
             <img src={logo} className="kasa-logo" alt="logo Kasa" />
             <nav className='links'>
             <Link to="/">Accueil</Link>
-            <Link to="/a-propos">À Propos</Link>
+            <Link to="/about">À Propos</Link>
             </nav>
         </div>
     );

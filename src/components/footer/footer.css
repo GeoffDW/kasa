@@ -6,8 +6,8 @@ footer {
     background-color: #fff;
     height: 160px;
     background-color: black;
-    position: relative;
-    top: 219px;
+    margin-top: 40px;
+    padding-bottom: 50px;
 }
 
 footer img {

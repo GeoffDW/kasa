@@ -1,11 +1,11 @@
 import './card.css';
 
-function Card({ src, alt, }) {
+function Card({ cover, title }) {
     return (
 
-        <figure className='card'>
-            <img src={src} alt={alt} />
-            <figcaption>Titre de la location</figcaption>
+        <figure className='card shadow'>
+            <img src={cover} alt={title} />
+            <figcaption>{title}</figcaption>
         </figure>
 
     );
