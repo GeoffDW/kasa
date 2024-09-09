@@ -1,11 +1,10 @@
-import banner from '../../assets/images/banner.png';
 import './banner.css';
 
-function Banner() {
+function Banner({ url, info, content='' }) {
     return (
         <header className='banner'>
-            <img src={banner} alt='Bannière kasa' />
-            <h1> Chez vous, partout et ailleurs </h1>
+            <img src={url} alt={info} />
+            {content && <h1> {content} </h1>}
         </header>
     )
 }

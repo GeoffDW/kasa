@@ -8,7 +8,7 @@ import Banner from '../../components/banner/banner';
 const About = () => {
     return (
         <main>
-            <Banner src={mountainForests} alt='Forêt montagneuse' />
+            <Banner url={mountainForests} info='Forêt montagneuse' />
             <ul className='about-collapse'>
                 {data.map((about, index) => (
                     <Collapse key={index} title={about.title} content={about.content} />
