@@ -1,0 +1,43 @@
+.infos-card h1 {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #FF6060;
+    line-height: 25px;
+    margin: 5px 0;
+}
+
+.infos-card h2 {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 24px;
+        margin: 25px 0 0 0;
+    }
+
+    .infos-card {
+        display: flex;
+    }
+
+    .titles-tags {
+        width: 1075px;
+    }
+
+    .rating-host {
+        display: flex;
+        flex-direction: column;
+        margin: 15px 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+}

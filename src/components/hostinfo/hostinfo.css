@@ -1,0 +1,31 @@
+.host-figure {
+    display: flex;
+    justify-content: right;
+
+    .host-picture {
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+        margin-left: 10px;
+    }
+
+    .host-name {
+        text-align: right;
+        color: #FF6060;
+        font-family: 'montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+
+@media (min-width: 768px) {
+    .host-figure {
+        align-items: center;
+
+        .host-picture {
+            width: 48px;
+            height: 48px;
+        }
+    }
+}

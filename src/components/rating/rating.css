@@ -1,0 +1,39 @@
+.color-stars {
+    color: #FF6060;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.gray-stars {
+    color: #E7E7E7;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.rating {
+    display: flex;
+    position: relative;
+    top: 25px;
+    left: 0;
+}
+
+@media (min-width: 768px) {
+
+    .color-stars,
+    .gray-stars {
+        width: 20px;
+        height: 20px;
+    }
+
+    .rating {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .rating-host {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
