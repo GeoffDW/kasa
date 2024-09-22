@@ -14,7 +14,7 @@ const Home = () => {
             <ul className='allcards'>
                 {data.housing.map(({ id, cover, title }) => 
                 <li key={id}>
-                    <Link to={`/logement/${id}`}>
+                    <Link to={`housing/${id}`}>
                         <Card cover={cover} title={title} />
                     </Link>
                 </li>

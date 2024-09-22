@@ -1,25 +1,25 @@
 .color-stars {
     color: #FF6060;
-    width: 15px;
-    height: 15px;
+    width: 30px;
+    height: 30px;
     margin-right: 5px;
 }
 
 .gray-stars {
     color: #E7E7E7;
-    width: 15px;
-    height: 15px;
+    width: 30px;
+    height: 30px;
     margin-right: 5px;
 }
 
 .rating {
     display: flex;
     position: relative;
-    top: 25px;
+    top: 75%;
     left: 0;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
     .color-stars,
     .gray-stars {
@@ -28,8 +28,9 @@
     }
 
     .rating {
-        position: static;
-        margin-top: 20px;
+        position: absolute;
+        left: 3%;
+        top: 71%;
     }
 
     .rating-host {

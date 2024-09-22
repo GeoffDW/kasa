@@ -4,28 +4,41 @@
 
     .host-picture {
         border-radius: 50%;
-        width: 32px;
-        height: 32px;
+        width: 65px;
+        height: 65px;
         margin-left: 10px;
+        position: relative;
+        bottom: 15px;
     }
 
     .host-name {
-        text-align: right;
-        color: #FF6060;
+        color: blue;
         font-family: 'montserrat', sans-serif;
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 17px;
+        font-weight: 700;
+        font-size: 18px;
+        width: calc(100% - 30px);
+
+        figcaption {
+            color: #FF6060;
+            position: relative;
+            bottom: 2px;
+            left: 54px;
+            font-weight: 500;
+        }
     }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .host-figure {
         align-items: center;
+        top: 84%;
+        position: relative;
+        gap: 55px;
 
         .host-picture {
             width: 48px;
             height: 48px;
+            top: -5%;
         }
     }
 }

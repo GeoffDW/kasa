@@ -12,26 +12,30 @@ import "./housing.css";
 
 function Housing() {
     const { id } = useParams();
-    const card = data.find((card) => card.id === id);
+    const card = data.housing.find((card) => card.id === id);
 
     if (!card) {
         return <Error />
-    };
+    }; 
 
     return (
-        <main>
+        <main id='housing'>
             <Slideshow images={card.pictures} />
+
             <section className="infos-card">
+
                 <section className="titles-tags">
                     <h1>{card.title}</h1>
                     <h2>{card.location}</h2>
                     <Tags host={card.host} tags={card.tags} location={card.location} />
                 </section>
+
                 <section className="rating-host">
                     <Rating rating={card.rating} />
                     <HostInfo name={card.host.name} picture={card.host.picture} />
                 </section>
             </section>
+
             <ul className="collapse-container">
                 <Collapse title="Description" content={card.description} />
                 <Collapse title="Equipements" content={<ul>{card.equipments.map((equipement, index) => <li key={index}>{equipement}</li>)}</ul>} />

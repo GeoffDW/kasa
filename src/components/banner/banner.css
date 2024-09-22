@@ -1,6 +1,6 @@
 .banner img {
     display: flex;
-    width: 85%;
+    width: 90%;
     justify-content: center;
     margin: auto;
     margin-top: 40px;
@@ -11,7 +11,7 @@
     border-radius: 20px;
 }
 
-h1 {
+.banner h1 {
     position: relative;
     color: black;
     bottom: 100px;
@@ -28,7 +28,7 @@ h1 {
             max-height: 180px;
             width: 95%;
             margin-bottom: -90px;
-            margin-top: 20px;
+            margin-top: 30px;
         }
 
         h1 {
