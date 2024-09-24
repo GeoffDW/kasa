@@ -8,8 +8,7 @@
         height: 400px;
         font-weight: 800;
         border-radius: 15px;
-        margin: auto;
-        margin-top: 40px;
+        margin: 40px auto 0;
     }
 
     .arrow-left {
@@ -48,7 +47,6 @@
         .slideshow-image {
             height: 280px;
             width: 95%;
-            padding-left: 7px;
         }
 
         .arrow-right {

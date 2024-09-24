@@ -28,9 +28,7 @@
     }
 
     .rating {
-        position: absolute;
-        left: 3%;
-        top: 71%;
+        left: -14px;
     }
 
     .rating-host {

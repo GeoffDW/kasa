@@ -21,24 +21,22 @@
         figcaption {
             color: #FF6060;
             position: relative;
-            bottom: 2px;
-            left: 54px;
+            bottom: 13px;
+            left: 82px;
+            display: flex;
             font-weight: 500;
+            justify-content: flex-end;
         }
     }
 }
 
 @media (max-width: 768px) {
     .host-figure {
-        align-items: center;
-        top: 84%;
-        position: relative;
         gap: 55px;
 
         .host-picture {
             width: 48px;
             height: 48px;
-            top: -5%;
         }
     }
 }

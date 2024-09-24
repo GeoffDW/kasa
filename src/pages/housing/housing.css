@@ -1,20 +1,21 @@
-.infos-card {
+[id=housing] {
+
+  .infos-card {
     display: flex;
     justify-content: space-between;
     width: 90%;
-    margin: auto;
-    margin-bottom: 20px;
-}
+    margin: 0 auto 20px;
+  }
 
-.infos-card h1 {
+  h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 1.5em;
     color: #FF6060;
     margin-bottom: 0;
-}
+  }
 
-.infos-card h2 {
+  h2 {
     display: flex;
     font-size: 1.1em;
     font-family: 'Montserrat', sans-serif;
@@ -22,26 +23,27 @@
     margin: 5px 0;
     color: rgb(80, 80, 80);
     margin-bottom: 17px;
-}
+  }
 
-@media screen and (max-width: 768px) {
-    h1 {
-        font-size: 24px;
-        margin: 25px 0 0 0;
+  @media screen and (max-width: 768px) {
+    .infos-card {
+      flex-direction: column;
     }
 
-    .infos-card {
-        display: flex;
+    h1 {
+      font-size: 24px;
+      margin: 25px 0 0 0;
     }
 
     .titles-tags {
-        position: relative;
-        right: 15px;
+      position: relative;
+      right: 15px;
     }
 
     .rating-host {
-        display: flex;
-        flex-direction: column;
-        margin: 15px 0;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
     }
+  }
 }
