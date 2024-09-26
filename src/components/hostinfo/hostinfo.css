@@ -21,8 +21,8 @@
         figcaption {
             color: #FF6060;
             position: relative;
-            bottom: 13px;
-            left: 82px;
+            bottom: 3px;
+            left: 29px;
             display: flex;
             font-weight: 500;
             justify-content: flex-end;
@@ -32,11 +32,14 @@
 
 @media (max-width: 768px) {
     .host-figure {
-        gap: 55px;
 
         .host-picture {
             width: 48px;
             height: 48px;
+        }
+
+        figcaption {
+            top: -9px;
         }
     }
 }
