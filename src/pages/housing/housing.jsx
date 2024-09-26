@@ -10,6 +10,17 @@ import Rating from '../../components/rating/rating';
 import "./housing.css";
 
 
+/**
+ * Composant représentant une page de logement.
+ * Il prend un id dans le paramètre d'URL et affiche le logement
+ * correspondant s'il existe dans les données.
+ * S'il n'existe pas, il affiche un composant Erreur.
+ *
+ * Le composant affiche un Slideshow contenant les images du logement,
+ * une section avec le titre, la localisation, les tags, la note et l'hôte
+ * du logement, et une liste non ordonnée de composants Collapse
+ * contenant la description et les équipements du logement.
+ */
 function Housing() {
     const { id } = useParams();
     const card = data.housing.find((card) => card.id === id);

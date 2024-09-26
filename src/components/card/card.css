@@ -2,9 +2,8 @@
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 15px;
-    align-items: stretch;
-    width: 100%;
+    margin-bottom: 20px;
+    width: 94%;
 }
 
 .card img {

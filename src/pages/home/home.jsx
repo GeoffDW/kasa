@@ -5,6 +5,12 @@ import data from '../../assets/data.json'
 import image from '../../assets/images/falaises.png'
 import './home.css';
 
+/**
+ * Page d'accueil qui affiche une bannière et une liste de cartes cliquables
+ * menant vers les détails des hébergements.
+ *
+ * @return {ReactElement} Le composant Home.
+ */
 const Home = () => {
 
     return (
