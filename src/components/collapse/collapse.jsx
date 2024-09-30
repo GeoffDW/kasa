@@ -2,6 +2,13 @@ import React, { useState } from 'react';
 import './collapse.css';
 import Arrow from '../../assets/images/arrow_left.png';
 
+/**
+
+Composant de collapse pour la page À propos.
+@param {string} titre - Titre de la section collapsible
+@param {string} [contenu=''] - Contenu de la section collapsible
+@returns {ReactElement} Un élément React pour la section collapse
+*/
 function Collapse({ title, content = '' }) {
     const [isCollapsed, setIsCollapsed] = useState(true);
 
