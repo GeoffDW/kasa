@@ -4,6 +4,7 @@ import rightArrow from '../../assets/images/arrow_right.png';
 import './slideshow.css';
 
 
+
 const Slideshow = ({ images }) => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -25,7 +26,7 @@ const Slideshow = ({ images }) => {
                     <img src={rightArrow} alt='Right arrow' className='arrow-right' onClick={nextSlide} />
                 </div>
             )}
-            </figure>
+        </figure>
     );
 }
 

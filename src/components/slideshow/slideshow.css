@@ -14,8 +14,8 @@
     .arrow-left {
         width: 35px;
         position: absolute;
-        top: 41%;
-        left: 70px;
+        top: 360px;
+        left: 80px;
         transform: translateY(-50%);
         cursor: pointer;
     }
@@ -24,7 +24,7 @@
         display: flex;
         margin: auto;
         position: absolute;
-        bottom: 35%;
+        bottom: 175px;
         font-weight: 800;
         z-index: 1;
         color: white;
@@ -35,8 +35,8 @@
     .arrow-right {
         width: 35px;
         position: absolute;
-        top: 41%;
-        right: 70px;
+        top: 360px;
+        right: 80px;
         transform: translateY(-50%);
         cursor: pointer;
     }
