@@ -1,5 +1,5 @@
 .slideshow {
-
+    position: relative;
     .slideshow-image {
         position: relative;
         width: 90%;
@@ -14,7 +14,7 @@
     .arrow-left {
         width: 35px;
         position: absolute;
-        top: 360px;
+        top: 216px;
         left: 80px;
         transform: translateY(-50%);
         cursor: pointer;
@@ -24,7 +24,7 @@
         display: flex;
         margin: auto;
         position: absolute;
-        bottom: 175px;
+        top: 340px;
         font-weight: 800;
         z-index: 1;
         color: white;
@@ -35,7 +35,7 @@
     .arrow-right {
         width: 35px;
         position: absolute;
-        top: 360px;
+        top: 216px;
         right: 80px;
         transform: translateY(-50%);
         cursor: pointer;
@@ -51,15 +51,15 @@
 
         .arrow-right {
             width: 20px;
-            top: 33%;
-            right: 25px;
+            top: 52%;
+            right: 30px;
         }
         
         
         .arrow-left {
             width: 20px;
-            top: 33%;
-            left: 25px;
+            top: 52%;
+            left: 30px;
         }
 
         .count {
