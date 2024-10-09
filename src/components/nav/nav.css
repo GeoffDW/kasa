@@ -5,6 +5,10 @@
     justify-content: space-between;
 }
 
+nav {
+    display: flex;
+}
+
 .links a {
     padding: 5px;
     margin: 30px 40px 0 0;
@@ -28,11 +32,11 @@ a:hover, a:focus {
     .links a {
         text-transform: uppercase;
         font-size: 0.8em;
-        margin: 25px 12px 0 0;
+        margin-left: -25px;
     }
 
     .kasa-logo {
-        margin-left: 20px;
+        margin-left: 37px;
         width: 150px;
     }
 }
