@@ -3,6 +3,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin: 50px;
+    margin-top: 30px;
 }
 
 ul {
@@ -39,6 +41,10 @@ a:hover, a:focus {
     ul {
         display: flex;
         padding: 0;
+    }
+
+    .kasa-nav {
+        margin: 20px;
     }
     
 }

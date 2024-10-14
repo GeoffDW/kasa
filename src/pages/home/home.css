@@ -4,10 +4,10 @@
     margin: auto;
     justify-content: center;
     background-color: #f6f6f6;
-    width: 80%;
     border-radius: 10px;
-    padding: 43px;
+    padding: 50px;
     gap: 24px;
+    margin: 50px;
 
     li {
         width: calc((100% / 3) - 20px);
@@ -23,8 +23,9 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        padding-top: 60px;
+        padding: 20px;
         box-sizing: border-box;
+        margin: 0;
 
         li {
             width: 100%;
