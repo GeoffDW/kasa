@@ -4,13 +4,18 @@ import './nav.css';
 
 function Nav() {
     return (
-        <div className='kasa-nav'>
+        <nav className='kasa-nav'>
             <img src={logo} className="kasa-logo" alt="logo Kasa" />
-            <nav className='links'>
-            <Link to="/">Accueil</Link>
-            <Link to="/about">À Propos</Link>
-            </nav>
-        </div>
+            
+            <ul className='links'>
+                <li>
+                    <Link to="/">Accueil</Link>
+                </li>
+                <li>
+                    <Link to="/about">À Propos</Link>
+                </li>
+            </ul>
+        </nav>
     );
 }
 
