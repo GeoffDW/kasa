@@ -26,16 +26,14 @@
 
         img {
             max-height: 180px;
-            width: 95%;
+            width: 93%;
             margin-bottom: -90px;
             margin-top: 30px;
-            margin-left: 37px;
         }
 
         h1 {
             bottom: 40px;
             font-size: 1.7em;
-            left: 35px;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;

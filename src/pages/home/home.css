@@ -22,8 +22,9 @@
         border-radius: 15px;
         display: flex;
         flex-direction: column;
-        width: 93%;
+        width: 100%;
         padding-top: 60px;
+        box-sizing: border-box;
 
         li {
             width: 100%;

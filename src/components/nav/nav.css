@@ -37,13 +37,14 @@ a:hover, a:focus {
     }
 
     .kasa-logo {
-        margin-left: 37px;
+        margin-left: 19px;
         width: 150px;
     }
 
     nav {
         display: flex;
         padding: 0;
+        margin-right: 10px;
     }
     
 }
