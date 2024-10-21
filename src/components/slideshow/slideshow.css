@@ -2,20 +2,20 @@
     position: relative;
     .slideshow-image {
         position: relative;
-        width: 90%;
+        width: 100%;
         display: flex;
         object-fit: cover;
         height: 400px;
         font-weight: 800;
         border-radius: 15px;
-        margin: 40px auto 0;
+        margin: 40px 0 0;
     }
 
     .arrow-left {
         width: 35px;
         position: absolute;
         top: 216px;
-        left: 80px;
+        left: 20px;
         transform: translateY(-50%);
         cursor: pointer;
     }
@@ -36,7 +36,7 @@
         width: 35px;
         position: absolute;
         top: 216px;
-        right: 80px;
+        right: 20px;
         transform: translateY(-50%);
         cursor: pointer;
     }
@@ -46,7 +46,7 @@
     .slideshow {
         .slideshow-image {
             height: 280px;
-            width: 95%;
+            width: 100%;
         }
 
         .arrow-right {

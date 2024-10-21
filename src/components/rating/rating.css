@@ -15,8 +15,8 @@
 .rating {
     display: flex;
     position: relative;
-    top: 75%;
     left: 0;
+    top: 75%;
 }
 
 @media (max-width: 768px) {
@@ -27,12 +27,12 @@
         height: 20px;
     }
 
-    .rating {
-        left: -14px;
-    }
-
     .rating-host {
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    .rating {
+        top: 0;
     }
 }

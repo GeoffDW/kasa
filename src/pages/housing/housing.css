@@ -1,10 +1,11 @@
 [id=housing] {
+  margin: 50px;
 
   .infos-card {
     display: flex;
     justify-content: space-between;
-    width: 90%;
-    margin: 0 auto 20px;
+    width: 100%;
+    margin: 0 0 20px;
   }
 
   h1 {
@@ -26,6 +27,8 @@
   }
 
   @media screen and (max-width: 768px) {
+    margin: 20px;
+
     .infos-card {
       flex-direction: column;
     }
@@ -37,7 +40,6 @@
 
     .titles-tags {
       position: relative;
-      right: 12px;
     }
 
     .rating-host {
