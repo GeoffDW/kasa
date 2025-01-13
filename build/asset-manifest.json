@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a63cbe62.css",
+    "main.js": "/static/js/main.19129fcc.js",
+    "static/media/mountain-forests.png": "/static/media/mountain-forests.abab3f12f4cb82f1dfa1.png",
+    "static/media/falaises.png": "/static/media/falaises.969f0a4de80a6db1abb0.png",
+    "index.html": "/index.html",
+    "main.a63cbe62.css.map": "/static/css/main.a63cbe62.css.map",
+    "main.19129fcc.js.map": "/static/js/main.19129fcc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a63cbe62.css",
+    "static/js/main.19129fcc.js"
+  ]
+}
